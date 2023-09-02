@@ -10,7 +10,6 @@ formRef.addEventListener('submit', onSubmitForm);
 // Submit form
 function onSubmitForm(e) {
   e.preventDefault();
-
   let delay = Number(formRef.delay.value);
 
   for (let i = 1; i <= formRef.amount.value; i += 1) {
